@@ -1,0 +1,48 @@
+Question 1
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP stands for hypertext transfer protocol which is used to transfer data in internet. The latest HTTP is HTTP2, which was released in 2015. Before that HTTP1.1 Was used.
+We know that speed of the internet was increased in recent era. Where people can easyly transfer and downlord data because of HTTP2.
+Many features was introduced while releasing HTTP2 they are 
+                                                           Multiplexing
+                                                           Binary Protocol
+                                                           Header compresssion
+                                                           Server Push
+                                                           Prioritization
+
+
+#Multiplexing:
+                One of the most significant diff in HTTP1.1 and HTTP2 is multiplexing. In HTTP1.1 only one request can be handeled at a time, after completion of on going 
+                request  only they can raise a second request. But HTTP2 can handle many request at a time.
+
+
+Binary Protocol:
+                 HTTP1.1 uses text based protocols, which is human readable and require more data to transfer. But HTTP2 uses Binary Protocal which is machine readable
+                 and also require less bandwidth to transfer the data.
+                 
+                 
+Header Compression:
+                    In HTTP1.1 there is no header compression, So it takes large anount of space in data transmission. In HTTP2 header compression was introduced, So it
+                    can reduce the size of the header during data transmission.
+
+Server Push:      For every inividual information user need to request the server for data in HTTP1.1. But in HTTP2 Server itself push the needed resourse as server push
+
+Prioritization :
+                  This was introduced in HTTP2 to prioritize which source of content should loaded first. So it esures important resourse like CSS and Java Script will load 
+                  first to improve user experience
+                  
+                  
+As per the comparison HTTP2 Introduced many new featers and taken many advancement in transfer protocol.
+
+
+Question 2
+Write a blog about objects and its internal representation in Javascript?
+
+In Javascript everything is represented as a object. From simple values like numbers, Strings, arrays etc. objects in the javascript are the key components to write the 
+efficient coding. In javascript objects are represented as key features to do different actions internally. objects in the javascript are like temporary it can be added, removed
+during compillation, When objects created in javascript it takes chunks of memory. Internal representation are predefined keywords used in objects to get and access the data most
+efficiently.
+
+
+
+
